@@ -1,9 +1,5 @@
 (function ($) {
     $(document).ready(function ($) {
-        scrollActiveClass();
-        activeIconMenu();
-        toggleSearch();
-
         function scrollActiveClass() {
             $(window).scroll(function () {
                 const scrollHeader = $(window).scrollTop();
@@ -53,6 +49,9 @@
             });
         }
 
+        scrollActiveClass();
+        activeIconMenu();
+        toggleSearch();
         divPartMenu();
         $(window).on('resize', divPartMenu);
     });

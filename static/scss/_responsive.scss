@@ -85,12 +85,12 @@
       height: 100%;
       top: 0;
       left: 0;
-      z-index: -5;
+      z-index: 999999999999;
       border-radius: 0;
 
       ul {
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
@@ -323,6 +323,17 @@
   .logo {
     max-width: 100px !important;
   }
+  .mission{
+    .order-4{
+      order: 3!important;
+    }
+    .order-3{
+      order: 4!important;
+    }
+  }
+  .center-resize{
+    padding-bottom: 20px!important;
+  }
   h1 {
     font-size: 24px;
   }
@@ -336,10 +347,10 @@
     font-size: 18px;
   }
   h5 {
-    font-size: 14px;
+    font-size: 12px;
   }
   h6 {
-    font-size: 14px;
+    font-size: 12px;
   }
   p {
     font-size: 16px;
@@ -375,7 +386,7 @@
     }
   }
   .p77_70{
-    padding: 40px 40px!important;
+    padding: 40px 15px!important;
   }
 }
 
@@ -394,7 +405,6 @@
   }
 }
 .active-menu {
-  z-index: 90000 !important;
   transform: translateX(0) !important;
   width: 100% !important;
   visibility: visible !important;

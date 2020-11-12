@@ -1,0 +1,52 @@
+$color_1:#7E127B;
+$color_2:#FDB813;
+$color_3:#FDC642;
+$color_4:#FED471;
+$color_5:#FEE3A1;
+$color_6:#7E8083;
+$color_7:#E5E6E6;
+$color_8:#9E2A2B;
+$color_9:#001242;
+$color_10: linear-gradient(180deg, rgba(#FDB813, .1) 0%, rgba(#FED471, .1) 100%);
+$color_11:#E5E5E5;
+$color_12:#F2F2F2;
+$color_13:#E0E0E0;
+$gray_1:#333333;
+$gray_2:#4F4F4F;
+$gray_3:#828282;
+.bg-color_12{
+  background-color: $color_12!important;
+}
+.bg-color_6{
+  background-color: $color_6;
+}
+.text-gray-2{
+  color: $gray_2!important;
+}
+.text-gray-1{
+  color: $gray_1!important;
+}
+.bg-color_13{
+  background-color: $color_13!important;
+}
+.background-color_11{
+  background-color: $color_11;
+}
+.text-color_3{
+  color: $color_3;
+}
+.bg-color_1{
+  background-color: $color_1;
+}
+.text-color_2{
+  color: $color_2;
+}
+.bg-color_2{
+  background-color: $color_2;
+}
+.text-color-gray_1{
+  color: $gray_1 opacity(0.8);
+}
+.bg-color_9{
+  background-color: $color_9;
+}

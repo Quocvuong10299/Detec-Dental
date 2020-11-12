@@ -1,0 +1,73 @@
+.btn{
+  padding: 0.6875rem .7rem;
+  display: inline-block;
+  font-family: $font_1;
+  @include transition;
+  &-primary{
+    display: inline-flex;
+    align-items: center;
+    background-color: $color_1;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 135.68%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    vertical-align: center;
+    border: 1px solid $color_1;
+    &:hover{
+      background-color: white;
+      color: $color_1;
+      text-decoration: none;
+      svg{
+        stroke: $color_1;
+        fill: $color_1;
+      }
+      path{
+        fill: $color_1;
+      }
+    }
+  }
+  &-submit{
+    background: linear-gradient(180deg, #FDB813 0%, #FED471 100%);
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+    &:hover{
+      cursor: pointer;
+    }
+ }
+  &-small-icon{
+    border: 1px solid #FED471;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  &-phone{
+    border: 1px solid #FED471;
+    box-sizing: border-box;
+    border-radius: 20px 5px 5px 5px;
+  }
+  &-mail{
+    border: 1px solid #FED471;
+    box-sizing: border-box;
+    border-radius: 5px 5px 20px 5px;
+  }
+  &-search{
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    background: transparent;
+    right: 0;
+    bottom: 0!important;
+    input{
+      padding-right:15px!important;
+      width: 100%;
+      &:focus{
+        outline: none!important;
+      }
+    }
+  }
+}

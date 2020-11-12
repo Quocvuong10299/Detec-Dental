@@ -1,0 +1,97 @@
+.title{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 131.8%;
+  text-align: right;
+  text-transform: uppercase;
+}
+h1{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+h2{
+  font-family: $font_1;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+}
+h3{
+  font-family: $font_1;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+}
+h4{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+h5{
+  font-family: $font_1;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+h6{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+p{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+.p-small{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+.text-menu{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.text-stat{
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+}
+.text-opacity0_5{
+  opacity: 0.5;
+}
+.text-weight500{
+  font-weight: 500!important;
+}
+li{
+  font-family: $font_1;
+}
